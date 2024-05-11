@@ -1,3 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    max-width: 1080px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex ;
+    
+}
+
+header{
+
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+
+.logo{
+    
+    width: 60%;
+
+}
+
+.menu{
+
+    width: 50%;
+}
+
+.menu nav a{
+
+    color: rgb(255, 0, 149);
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 30px;
+}
+
+
+
+
+
 body{
 
     background-color: rgb(224, 183, 215);
@@ -8,7 +53,7 @@ h1{
     text-align: justify;
     color: rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 3rem;
+    font-size: 2rem;
 
 }
 
@@ -17,4 +62,29 @@ p{
     text-align: justify;
     font-family: sans-serif;
     font-size: 1rem;
+}
+
+.img{
+
+    max-width: 20%;
+    border-radius: 50%;
+}
+
+.ok{
+
+    width: 20%;
+}
+
+.solzinha{
+
+    width: 10%;
+    border-radius: 60%;
+    text-align: center;
+}
+
+.sol{
+
+    width: 10%;
+    border-radius: 50%;
+    text-align: center;
 }
