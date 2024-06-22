@@ -1,57 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> hot pink - inovando suas formas de sentir prazer </title>
         <link rel="icon" type="image/x-icon" a href="phots/hotts.jpg">
-        <link rel="stylesheet" a href="style/hotpink.css">
+        
+        <link rel="stylesheet" a href="style/forms.css">
+
     </head>
 
     <body>
       
-        <header>
+   
 
-            <img src="phots/hot.jpg" class="img">
+            <div class="container">
 
-            <nav>
+                <div class="formimg">
 
-                <ul>
+                <img src="phots/woman.png" alt="img">
 
-                    <li> <a href="home.html"> home </a> </li>  
-                    <li> <a href="fale conosco.html"> contato </a> </li>
-                    <li> <a href="minha sacola.html"> carrinho </a> </li>
-                    <li> <a href="produtos.html"> produtos </a> </li>
-                    <li> <a href="minha conta.html"> conta </a> </li>
+                </div>
 
-                </ul>
+                <div class="forms">
+                    <form action="#">
 
-            </nav>
+                        <div class="title">
 
-        </header>
+                            <h1> Cadastre-se </h1>
 
-        <form>
+                        </div>
+                        <div class="login">
 
-        <h2 > HTML Forms </h2> <form action = "/action_page.php" > 
-        <label for="fname">First name:</label>
-        <br>
-        <input type="text" id="fname" name="fname" value="John">
-        <br>
-        <label for="lname">Last name:</label>
-        <br>
-        <input type="text" id="lname" name="lname" value="Doe">
-        <br>
-        <br>
-        <input type="type"="submit" value="Submit">
+                            <button><a href="#"> Entrar </a></button>
         
-        </form> 
+                        </div>
 
+                   
 
+                
 
-            
+                <div class="inputgroup">
 
+                    <div class="inputbox">
 
+                        <label for="firstname"> Primeiro nome </label>
+                        <input id="firstname" type="text" name="firstname" placeholder="digite seu primeiro nome" required>
+                        
+                    </div>
+
+                    <div class="input-box">
+
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="digite seu sobrenome" required>
+
+                    </div>
+
+                    <div class="input-box">
+
+                        <label for="email"> Email</label>
+                        <input id="email" type="email" name="email" placeholder="digite seu email" required>
+
+                    </div>
+
+                    <div class="input-box">
+
+                        <label for="number"> Celular </label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx " required>
+
+                    </div>
+
+                    <div class="input-box">
+
+                        <label for="password"> Senha </label>
+                        <input id="password" type="password" name="password" placeholder="digite sua senha " required>
+
+                    </div>
+
+                    <div class="input-box">
+
+                        <label for="password"> confirme seu Senha </label>
+                        <input id="password" type="password" name="confirmpassword" placeholder="digite sua senha " required>
+
+                    </div>
+
+                </div>
+
+                <div class="gender-inputs">
+
+                    <div class="gender-title">
+                        <h6>Gênero</h6>
+
+                    </div>
+
+                    <div class="gender-group">
+
+                        <div class="gender-input">
+
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">feminino</label>
+
+                        </div>
+
+                        <div class="gender-input">
+
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Masculino</label>
+
+                        </div>
+
+                        <div class="gender-input">
+
+                            <input type="radio" id="others" name="gender">
+                            <label for="others">outros</label>
+
+                        </div>
+
+                        <div class="gender-input">
+
+                            <input type="radio" id="none" name="gender">
+                            <label for="none">prefiro nao dizer</label>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="continue-button">
+
+                    <button><a href="#">continua</a></button>
+
+                </div>
+
+            </form> 
+
+            </div>
+
+            </div>
 
     </body>
 </html>
