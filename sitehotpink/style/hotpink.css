@@ -14,7 +14,6 @@ header{
     align-items: center;
     justify-content: center;
     display: flex;
-    background-color: rgb(255, 255, 255);
     grid-template-columns:1fr 1fr;
     gap: 10%;
 
@@ -36,11 +35,14 @@ nav {
     ul {
         display: flex;
         justify-content: space-around;
+        color: rgb(255, 0 , 221);
+        
 
         li {
             margin: 0px 40px;
             font-size: 30px;
             color: rgb(224, 91, 162);
+            font-family: cursive;
     
             }
       
@@ -59,4 +61,35 @@ body {
 
     background-image: radial-gradient(rgb(218, 120, 221),rgb(255, 255, 255));
     height: 80%;
+}
+
+section { 
+
+
+    padding: 20%;
+    align-items: center;
+    justify-content: flex-end;
+   
+
+    
+
+
+}
+
+h1 {
+
+    
+    padding-left: 13%;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+
+}
+
+h3 {
+
+    color: rgb(255, 255, 255);
+    padding-left: 13%;
+    justify-items: center ;
+    
+
 }

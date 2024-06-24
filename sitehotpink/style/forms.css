@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #0c0ce94d;
+    background-color: rgb(236, 93, 181);
 }
 
 .container {
@@ -22,28 +22,28 @@ body{
     box-shadow: 5px 5px 10px rgba(0, 0, .212);
 }
 
-.form-image{
+.forming{
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fde3a7d7;
+    background-color: #da84a5d7;
     padding: 1rem;
 }
 
-.form-image img {
+.forming img {
     width: 100%;
-    height:100%;
+    height:70%;
 }
 
-.form {
+.forms {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #fff;
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .form-header {
@@ -59,14 +59,14 @@ body{
 
 .login-button button{
     border: none;
-    background-color: aqua;
+    background-color: rgb(255, 0, 221);
     padding: 0.4rem 1rem;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .login-button button:hover {
-    background-color: rgb(216, 27, 27);
+    background-color: rgb(255, 0, 221);
 }
 
 .login-button button a {
@@ -75,12 +75,12 @@ body{
     color: #fff;
 }
 
-.form-header h1::after {
+.formheader h1::after {
     content: '';
     display: block;
     width: 5rem;
     height: 0.3rem;
-    background-color: aqua;
+    background-color: rgb(243, 181, 226);
     margin: 0 auto;
     position: absolute;
     border-radius: 10px;
@@ -112,7 +112,7 @@ body{
 }
 
 .input-box input:focus-visible {
-    outline: 1px solid #6c63ff;
+    outline: 1px solid #ca2886;
 }
 
 .input-box label,
@@ -148,17 +148,17 @@ body{
 }
 
 .continue-button button{
-    width: 100%;
+    width: 40%;
     margin-top: 2.5rem;
     border: none;
-    background-color: #6c63ff;
+    background-color: #e43fa5;
     padding: 0.62rem;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .continue-button button:hover {
-    background-color: #6c63fff1;
+    background-color: rgba(255 , 0 , 221);
 }
 
 .continue-button button a {
